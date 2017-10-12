@@ -23,11 +23,13 @@ void pause() {
 }
 
 void main() {
-	int x;
-	cout << "Choose a 3 Digit #" << endl;
-	cin >> x;
-	cout << "You Chose " << x << endl;
-
+	int i = 0
+	for( ; i < 30; i + +) {
+		int x;
+		cout << "Choose a 3 Digit #" << endl;// Type a three digit number into the window.
+		cin >> x;//Peron typing and hitting enter.
+		cout << "You Chose " << x << endl;// says this after they hit enter
+	}
 	int A = x / 100;
 	int B = x % 100 / 10;
 	int C = x % 10;
